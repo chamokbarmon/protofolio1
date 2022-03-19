@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;                
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.container-fluid{
+  background-color: crimson;
+  /* position: fixed; */
+  width: 100%;
+}
+.logo{
+  font-size: 30px;
+  color:black;
+  margin-left: 80px;
+}
+
+.menu{
+   display:inline-block; 
+   margin-top: 6px;
+
+ 
+}
+.menu  li{
+  display: inline-block;
+  list-style: none;
+}
+.menu li a{
+  text-decoration: none;
+  justify-content: space-between;
+  padding:20px;
+ font-size: 20px;
+ text-align: center;
+ color:#fff;
+}
+.menu li a:hover{
+  color:blue;
+  text-shadow: 5px 5px 5px 5px;
+  
+}
+
+.wd{
+  width:1360px;
+}
+.bg img{
+background-image: url("img/banner.jpg");
+}
+.home{
+display: flex;
+background: url("img/banner.jpg")no-repeat center;
+height:100vh;
+color:#fff;
+/* min-width:500px; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home  .max-width{
+  margin:200px  90px;
+}
+.home  .max-width .text-1{
+  font-size:20px;
+}
+.home  .max-width .text-2{
+  font-size: 40px;
+}
+.home  .max-width .text-3{
+  font-size: 30px;
+}
+.bg{
+  color:crimson;
+}
+.chamok-img{
+  height:420px;
+  width:500px;
+  border-radius: 10px;
+}
+.service{
+  text-align: center;
+
+}
+.bg-cl{
+  background-color: hsl(256, 100%, 50%);
+}
+.border2{
+  background-color:hsl(352, 65%, 5%);
+  border:2px solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.text{
+text-align: justify;
+
+}
+.colum-right .bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+.colum-right .bars span{
+  font-weight: 500;
+  width: 100%;
+  font-size: 20px; 
+  /* text-align: center; */
+  justify-content: space-between;
+ 
+}
+.padding-left{
+  padding-left: 350px;
+}
+.line{
+height: 5px;
+width:100%;
+background: lightgray;
+position:relative;
+}
+.line::before{
+  content: "";
+  position:absolute;
+  height: 100%;
+  width: 80%;
+  top:0;
+  left: 0;
+  background: crimson;
+}
+.html-line::before{
+  width: 90%;
+}
+.css-line::before{
+  width: 60%;
+}
+.js-line::before{
+  width: 50%;
+}
+.php-line::before{
+  width: 30%;
+}
+.ms-line::before{
+  width: 20%;
+}
+.img-mama{
+  width:100%;
+  height:500px;
+  
+
+}
+.top{
+  margin-top:50px;
+}
+.img-cercle{
+  height:150px;
+  width:160px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.tt{
+text-align: justify;
+}
+.icon {
+  display: flex;
+ 
+  
+}
+.icon i{
+  font-size: 30px;
+  padding:5px 5px 5px 5px;
+  margin-left: 20px;
+  color: #dc143c;
+  
+}
+.icon i:hover{
+  color: black;
+}
+.border1{
+  background-color: hsl(256, 100%, 50%);
+  border:2px solid black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 700px;
+}
+.babu{
+  text-align: justify;
+}
+.hover{
+  
+}
+.icon1{
+  font-size: 30px;
+  padding:5px 5px 5px 5px;
+  margin-left: 20px;
+  color: #dc143c;
+  
+}
+.form1{
+  display: flex;
+}
+.chamok1-img{
+  height:420px;
+  width:550px;
+  border-radius: 10px;
+}
+.footer{
+  height:100px;
+  background-color: black;
+  color:white;
+  border:1px solid black;
+  text-align: center;
+  
+}
